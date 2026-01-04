@@ -12,6 +12,7 @@ excerpt: Short summary of this post
 ---
 
 # hello again world
+Okay, this ought to fix it for reals...
 
 ## Overview
 Here comes a new blog with new crud to be amazed/confused/bored at.
