@@ -1,6 +1,6 @@
 ---
 layout: post
-title:# hello again world"
+title: "hello again world"
 date: 2026-01-04 14:34:25 -0600
 categories: [audio, hifi]
 tags: [setup, klipsch]
