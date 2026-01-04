@@ -28,7 +28,7 @@ url: "https://hifi.robarnold.io" # the base hostname & protocol for your site, e
 github_username:  robarnoldio
 
 # Build settings
-theme: minima
+theme: midnight
 plugins:
   - jekyll-feed
 
