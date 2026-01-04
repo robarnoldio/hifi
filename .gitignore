@@ -1,7 +1,30 @@
-_site
-.sass-cache
-.jekyll-cache
+
+# --- Jekyll build outputs & caches (rebuildable)
+_site/
+.jekyll-cache/
 .jekyll-metadata
-vendor
-Gemfile.lock
+.sass-cache/
+
+# --- Bundler/Ruby local dirs
 .bundle/
+vendor/
+
+# --- OS cruft
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE settings (personal, not project source)
+.vscode/
+.idea/
+
+# --- Logs & temp
+*.log
+*.tmp
+
+# --- Node tooling (if you add JS tooling later)
+node_modules/
+
+# --- Lockfile: keep this COMMITTED for reproducible GitHub Actions builds
+# If you switch to GitHub Pages' *native* build using the github-pages gem,
+# you may ignore Gemfile.lock (see note below).
+# Gemfile.lock
