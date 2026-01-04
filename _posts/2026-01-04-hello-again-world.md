@@ -24,9 +24,6 @@ Here comes a new blog with new crud to be amazed/confused/bored at.
 ## Images
 ![Alt text]({{ site.baseurl }}/i/IMG_8389.jpeg)
 
-## Links
-[Internal link]({{ site.baseurl }}/path/to/page)
-
 ## Next Steps
 - See if this damn thing even works
 
