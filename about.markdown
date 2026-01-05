@@ -49,3 +49,4 @@ I would love to find a pair of RF-7 (flagships) to replace these, but for now I'
 You can find the very useful REW software at: 
 [REW](https://roomeqwizard.com)
 
+> Updated on 2026-01-04
