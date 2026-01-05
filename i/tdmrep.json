@@ -1,0 +1,25 @@
+
+{
+  "$schema": "https://iptc.org/schemas/tdmrep/1.0/tdmrep.json",
+  "site": "https://hifi.robarnold.io/",
+  "policy": "deny",
+  "policies": [
+    {
+      "scope": "site",
+      "use": "generative-ai-training",
+      "permission": "deny"
+    },
+    {
+      "scope": "site",
+      "use": "data-mining",
+      "permission": "deny"
+    }
+  ],
+  "notes": [
+    "All rights reserved, including for text and data mining and AI training."
+  ],
+  "contact": {
+    "email": "rob@robarnold.io"
+  },
+  "lastUpdated": "2026-01-05"
+}

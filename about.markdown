@@ -32,7 +32,7 @@ I have modified the feet, replacing them with a cheap set of spring loaded aluim
 
 ![CR-420 Receiver](/i/IMG_8394.jpeg)
 
-This is rated at 22W/channel into 8 ohms, but punches way above its weight. The silverface look is super classic, and this is the bottom of the line that included models CR-620, 820, 1020, 2020, and even the elusive 3020. These are regularly bringing a couple hundred bucks on the used market, but I nabbed mne from a local seller for $40. My good friend Brett teched it up into fine shape and it sounds great.
+This is rated at 22W/channel into 8 ohms, but punches way above its weight. The silverface look is super classic, and this is the bottom of the line that included models CR-620, 820, 1020, 2020, and even the elusive 3020. These are regularly bringing a couple hundred bucks on the used market, but I nabbed mine from a local seller for $40. My good friend Brett teched it up into fine shape and it sounds great.
 
 # Klipsch RF-5 floorstanding speakers (early 2000s)
 
@@ -40,7 +40,7 @@ This is rated at 22W/channel into 8 ohms, but punches way above its weight. The 
 
 ![RF-5 nameplate](/i/IMG_5188.jpeg)
 
-One key reason I don't need a monster amp, besides my room size, is that these Klipsch speakers are ridiculously efficent at 99dB/W. I put some 3" carriage bolts into the outrigger feet to get these guys up off the carpet. I got these for free from my old boss (thanks, Gary, I love them). My speakers wires are low-cost zip cord style terminated in pin jacks. The Receiver ahs spring loaded clips and the speakers have 4-way binding posts, and this keeps things nice and tidy.
+One key reason I don't need a monster amp, besides my room size, is that these Klipsch speakers are ridiculously efficent at 99dB/W. I put some 3" carriage bolts into the outrigger feet to get these guys up off the carpet. I got these for free from my old boss (thanks, Gary, I love them). My speakers wires are low-cost zip cord style terminated in pin jacks. The Receiver has spring loaded clips and the speakers have 4-way binding posts, and this keeps things nice and tidy.
 
 I would love to find a pair of RF-7 (flagships) to replace these, but for now I'm rocking these.
 
