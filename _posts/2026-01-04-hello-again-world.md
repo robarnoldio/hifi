@@ -13,13 +13,13 @@ excerpt: Intro post for this new blog
 
 # hello again world
 
-Okay, this is the first post on the new blog. In this space, I aim to discuss my learning journey with tuning my hi-fi setup. Most folks struggle to understand the factors that inhibit or enhance the quality of their listening, and it's not surprising, because acoustics can be challenging if you haven't had the training to work with measurements in both the time and frequency domain. Since I have an engineering degree and specialized in signal processing), a lot of the background info needed was included in my education.
+Okay, this is the first post on the new blog. In this space, I aim to discuss my learning journey with tuning my hi-fi setup. Most folks struggle to understand the factors that inhibit or enhance the quality of their listening, and it's not surprising, because acoustics can be challenging if you haven't had the training to work with measurements in both the time and frequency domain. Since I have an engineering degree (and specialized in signal processing), a lot of the background info needed was included in my education.
 
 ## Overview
 
 The most fundamental questions I hope to address for a range of improvement actions are "how much does it improve the sound/listening experience?", and "how much does it cost?"
 
-I will strive to appeal to measurements and theory whenver possible, but listening to music is a subjective experience, colored by a lot of extrinsic factors. Rather than seeking to eliminate all of these, I just want to acknowledge that it's one of my aims to not let my biases distract me from pursuing better listening experiences.
+I will strive to appeal to measurements and theory whenever possible, but listening to music is a subjective experience, colored by a lot of extrinsic factors. Rather than seeking to eliminate all of these, I just want to acknowledge that it's one of my aims to not let my biases distract me from pursuing better listening experiences.
 
 ## Reference materials
 
@@ -35,6 +35,6 @@ I will strive to appeal to measurements and theory whenver possible, but listeni
 
 ## Images
 
-![a glamour shot of my system](/i/IMG_8389.jpeg)
+![a glamour shot of my system](/i/IMG_8266.jpeg)
 
 > Updated on 2026-01-04
