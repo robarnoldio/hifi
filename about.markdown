@@ -4,7 +4,7 @@ title: About my stereo
 permalink: /system/
 ---
 
-This is my blog about  messing with my stereo. I aminly listen to records, and I've got a relatively substantial [collection](https://www.discogs.com/user/Robarnold/collection). Right now, my gear looks like this:
+This is my blog about  messing with my stereo. I mainly listen to records, and I've got a relatively substantial [collection](https://www.discogs.com/user/Robarnold/collection). Right now, my gear looks like this:
 
 # Ortofon 2M Bronze
 
@@ -22,7 +22,9 @@ I bought this new at my local record shop in 2023. I replaced a 2M red that went
 
 This direct drive turntable comes with a Grace G-840F tonearm, HS-800 aluminum headshell, 2kg die cast aluminum platter, and 12 pole brushless motor. I got this item used for in the neighborhood of $200, though it's difficult to pin down exactly what I paid since I flipped up three other turntables to buy it. Each of those three was a yard sale find for $15 or under.
 
-I have modified the feet, replacing them with a cheap set of spring loaded aluiminum feet from Temu (from that household brand, HHDZI). I drilled holes in thse so I could convert them to leveling feet like what I removed.
+I gained two main benefits when I upgraded to this deck--I can set the tonearm height, and the speed stability is unbelievably improved. My last daily driver had a lot of wow and was quite distracting when listening to piano solos. This deck comprehensively fixed that.
+
+I have modified the feet, replacing them with a cheap set of spring loaded aluiminum feet from Temu (from that household brand, HHDZI). I drilled holes in these so I could convert them to leveling feet like what I removed. I have the original slipmat, but am using a homemade leather mat for right now (I love the static reduction).
 
 # Yamaha CR-420 Receiver (1977)
 
