@@ -16,6 +16,6 @@ Distance from R speaker to wall is 80" and from L to wall is 100".
 
 Listening Position is 125" from right wall, 148" from left.
 
-# Room modes
+> Updated on 2026-01-04
 
  
