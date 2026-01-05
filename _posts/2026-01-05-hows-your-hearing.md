@@ -30,8 +30,8 @@ Besides being an old dude in general, I also played in bands on stage for 11 yea
 Well, that may not be the most productive slogan. Mastering engineers try to use a reference level of 83 dB as a consistent benchmark of loudness. I don't always whip out my meter and check, but my customary listening volumes tend to stay pretty close to that level. It's loud enough that you won't be able to carry on a conversation in the room most of the time.
 
 <video controls preload="metadata" width="640">
-  <source src="/assets/videos/clip.webm" type="video/webm">
-  <source src="/assets/videos/clip.mp4" type="video/mp4">
+  <source src="/i/level.webm" type="video/webm">
+  <source src="/i/level.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

@@ -34,7 +34,7 @@ I have modified the feet, replacing them with a cheap set of spring loaded aluim
 
 This is rated at 22W/channel into 8 ohms, but punches way above its weight. The silverface look is super classic, and this is the bottom of the line that included models CR-620, 820, 1020, 2020, and even the elusive 3020. These are regularly bringing a couple hundred bucks on the used market, but I nabbed mne from a local seller for $40. My good friend Brett teched it up into fine shape and it sounds great.
 
-# Klipsch RF-5 floorstanding speakers
+# Klipsch RF-5 floorstanding speakers (early 2000s)
 
 [RF-5 specs](https://d2um2qdswy1tb0.cloudfront.net/spec-sheets/RF-5-Floorstanding-Speaker.pdf?v=1725388891)
 
