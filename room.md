@@ -71,6 +71,7 @@ So I got a little help from Copilot to calculate the meaningful modes to pay att
 
 
 ## Lowest 30 Modal Frequencies (Axial + Tangential + Oblique) — ≤ ~126 Hz
+
 |   # | Type       | Mode (nx,ny,nz)   |   Frequency (Hz) |
 |----:|:-----------|:------------------|-----------------:|
 |   1 | Axial      | (0,1,0)           |            24.65 |
@@ -110,6 +111,8 @@ So I got a little help from Copilot to calculate the meaningful modes to pay att
 Each of the above is a potential (theoretical) problem with the evenness of my room's frequency response. If it turns out to be an actual (measured) problem, the steps I can take to attempt to correct it mainly involve moving the positions of the speakers and the listener, since the room geometry is not changing.
 
 In recording studios, the designers avoid parallel walls to keep these effects from contributing negatively to the sound. Peaks and nulls of 30dB or more are not unusual, and most rooms suffer from at least a couple of these. 
+
+I am using a two-channel stereo setup, without any subwoofer. Sub enjoyers have a bit more to think about than I do when it comes to these modes and the way their placement of a subwoofer interacts in good/bad ways.
 
 > Updated on 2026-01-05
 
