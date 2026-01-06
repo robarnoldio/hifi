@@ -1,4 +1,3 @@
-
 # trust.txt — organizational declarations
 # See: https://hifi.robarnold.io/trust.txt
 
