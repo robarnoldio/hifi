@@ -1,7 +1,11 @@
 /* Header background and text color */
-.site-header {
+.site-header, .site-nav {
   background-color: #333;
   color: #fff;
+}
+
+.menu-icon {
+  color:  #fff
 }
 
 /* Make header links override Minima's defaults reliably */
@@ -18,11 +22,6 @@ blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 15px;
   font-style: italic;
-}
-
-/* Headings (be careful with negative margins) */
-h1, h2, h3, h4, h5 {
-  margin-left: -25px;
 }
 
 /* Example: Add a background image to the header later if you like
