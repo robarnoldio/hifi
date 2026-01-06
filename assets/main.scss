@@ -1,0 +1,15 @@
+---
+# Jekyll will process this file and output it as /assets/main.css
+# You can optionally override Minima variables BEFORE importing the theme.
+# Example variable overrides (uncomment and tweak as needed):
+# $brand-color: #ff6600;
+# $link-base-color: #ff6600;
+# $header-bg-color: #333;
+---
+
+/* 1) Import Minima's styles */
+@import "minima";
+
+/* 2) Import your overrides AFTER Minima so they win by source order */
+@import "overrides";
+``

@@ -1,0 +1,35 @@
+/* Header background and text color */
+.site-header {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Make header links override Minima's defaults reliably */
+.site-header .wrapper a.site-title,
+.site-header .wrapper a.site-title:visited,
+.site-header .wrapper .site-nav a,
+.site-header .wrapper .site-nav a:visited {
+  color: #e1e1e1;
+}
+
+/* Blockquotes */
+blockquote {
+  color: #404040;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+/* Headings (be careful with negative margins) */
+h1, h2, h3, h4, h5 {
+  margin-left: -25px;
+}
+
+/* Example: Add a background image to the header later if you like
+.site-header {
+  background-image: url('/assets/images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+*/
