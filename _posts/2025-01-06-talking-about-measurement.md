@@ -23,7 +23,8 @@ On this page, I'll try to condense down the most important parts that I learned 
 
 Measurements have error. Error is the difference between the true quantitiy and the measured quantity. Error can be observational or systematic.
 
-> If a 1kg calibrated reference mass gives you a scale reading of 999g, that is a 1g error. If the error is consistent across repeated measurements, that is systematic error. If my scale isn't clean because I was making bread and got four on it, that could be a source of observational error. My coffee scale (which I love and use for all kinds of things) is rated to be accurate wit a one gram error in the range from 
+> If a 1kg calibrated reference mass gives you a scale reading of 999g, that is a 1g error. If the error is consistent across repeated measurements, that is systematic error. If my scale isn't clean because I was making bread and got four on it, that could be a source of observational error. My coffee scale (which I love and use for all kinds of things) is rated to be accurate with a one gram error in the range from 500-2000g (see the tiny writing on the scale).
+![scale getting calibrated kind of](/i/IMG_0337.jpeg) 
 
 
 
