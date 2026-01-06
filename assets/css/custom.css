@@ -2,3 +2,9 @@
   background-color: #333;
   color: white;
 }
+blockquote {
+    color: #404040;
+    border-left: 4px solid #e8e8e8;
+    padding-left: 15px;
+    font-style: italic;
+}
