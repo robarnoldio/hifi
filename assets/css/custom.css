@@ -8,3 +8,6 @@ blockquote {
     padding-left: 15px;
     font-style: italic;
 }
+.site-title, .site-title:visited, .site-nav, .site-nav:visited{
+    color: #e1e1e1;
+}
