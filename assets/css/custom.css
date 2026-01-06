@@ -8,9 +8,9 @@ blockquote {
     padding-left: 15px;
     font-style: italic;
 }
-.site-title, .site-title:visited, .site-nav, .site-nav:visited{
+.site-title, .site-title:visited, .site-nav, .site-nav:visited {
     color: #e1e1e1;
 }
-h1,h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
     margin-left: -25px;
 }
