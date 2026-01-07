@@ -40,7 +40,7 @@ This is rated at 22W/channel into 8 ohms, but punches way above its weight. The 
 
 ![RF-5 nameplate](/i/IMG_5188.jpeg)
 
-One key reason I don't need a monster amp, besides my room size, is that these Klipsch speakers are ridiculously efficent at 99dB/W. I put some 3" carriage bolts into the outrigger feet to get these guys up off the carpet. I got these for free from my old boss (thanks, Gary, I love them). My speakers wires are low-cost zip cord style terminated in pin jacks. The Receiver has spring loaded clips and the speakers have 4-way binding posts, and this keeps things nice and tidy.
+One key reason I don't need a monster amp, besides my room size, is that these Klipsch speakers are ridiculously efficent at 99dB/W. I put some 3" carriage bolts into the outrigger feet to get these guys up off the carpet. I got these for free from my old boss (thanks, Gary, I love them). My speaker wires are low-cost zip cord style terminated in pin jacks. The receiver has spring loaded clips and the speakers have 4-way binding posts, and this keeps things nice and tidy.
 
 I would love to find a pair of RF-7 (flagships) to replace these, but for now I'm rocking these.
 
