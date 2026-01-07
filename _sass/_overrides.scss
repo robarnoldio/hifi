@@ -74,14 +74,7 @@ blockquote {
   background: transparent; /* or try a soft glass effect below */
 }
 
-/* If you want a soft “glass” look over the image */
-@supports (backdrop-filter: blur(6px)) {
-  .site-nav .trigger {
-    background: rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(6px);
-  }
-
-  .site-nav .page-link {
+.site-nav .page-link {
     color: #fff;
   }
 }
