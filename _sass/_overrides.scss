@@ -1,20 +1,93 @@
-/* Header background and text color */
-.site-header, .site-nav {
-  background-color: #333;
-  color: #fff;
+
+/* ===========================
+   Header & Navigation Overrides
+   =========================== */
+
+/* Header: background image + baseline text color */
+.site-header {
+  background-image: url('/i/IMG_0394.jpeg'); /* update if you relocate the file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;            /* improves default text contrast */
+  position: relative;     /* enables overlay/layering if needed */
 }
 
-.menu-icon {
-  color:  #fff
+/* Keep header content above any overlay you might use (e.g., ::before) */
+.site-header .wrapper {
+  position: relative;
+  z-index: 2;
 }
 
-/* Make header links override Minima's defaults reliably */
+/* Title & primary nav link colors (specificity to beat Minima defaults) */
 .site-header .wrapper a.site-title,
 .site-header .wrapper a.site-title:visited,
 .site-header .wrapper .site-nav a,
 .site-header .wrapper .site-nav a:visited {
   color: #e1e1e1;
 }
+
+/* Hamburger icon color (mobile toggle) */
+.menu-icon {
+  color: #fff;
+}
+
+/* NAV: transparent background so the header image shows through */
+.site-nav {
+  background: transparent;
+}
+
+/* Nav links over the image */
+.site-nav .page-link {
+  background: transparent;  /* no pill/box background */
+  color: #fff;
+}
+
+/* Hover/focus: soft tint for feedback, still shows image */
+.site-nav .page-link:hover,
+.site-nav .page-link:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+/* Visited links: keep consistent with readable contrast */
+.site-nav .page-link:visited {
+  color: #f0f0f0;
+}
+
+/* ===========================
+   Mobile Menu (opened state)
+   =========================== */
+
+/* Default: panel is transparent (when closed/hidden) */
+.site-nav .trigger {
+  background: transparent;
+}
+
+/* When the mobile menu is open (checkbox checked), darken the panel */
+.nav-trigger:checked ~ .trigger {
+  background: rgba(0, 0, 0, 0.85); /* solid dark overlay for legibility */
+  color: #fff;
+  /* optional ergonomics */
+  padding: 0.75rem 0;
+}
+
+/* Ensure link colors are readable in the dark panel */
+.nav-trigger:checked ~ .trigger .page-link {
+  color: #fff;
+}
+
+/* Hover/focus inside dark panel */
+.nav-trigger:checked ~ .trigger .page-link:hover,
+.nav-trigger:checked ~ .trigger .page-link:focus {
+  background: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+}
+
+/* ===========================
+   Other site-wide tweaks
+   =========================== */
 
 /* Blockquotes */
 blockquote {
@@ -23,56 +96,3 @@ blockquote {
   padding-left: 15px;
   font-style: italic;
 }
-
-/* Example: Add a background image to the header later if you like */
-.site-header {
-  background-image: url('/i/IMG_0394.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-}
-
-/* Ensure header layers are set up for transparency and overlays */
-.site-header {
-  position: relative;
-}
-
-/* Keep header content above any ::before overlay you might use */
-.site-header .wrapper {
-  position: relative;
-  z-index: 2;
-}
-
-/* NAV: transparent background so image shows through */
-.site-nav {
-  background: transparent;     /* remove any default */
-}
-
-/* Minima nav links are usually `.page-link` inside `.site-nav` */
-.site-nav .page-link {
-  background: transparent;     /* no pill/box background */
-  color: #ffffff;              /* ensure contrast on top of the photo */
-}
-
-/* Hover/focus states: subtle highlight without hiding the image */
-.site-nav .page-link:hover,
-.site-nav .page-link:focus {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);  /* optional soft tint */
-  text-decoration: none;
-}
-
-/* Optional: visited links, keep consistent */
-.site-nav .page-link:visited {
-  color: #f0f0f0;
-}
-
-/* Mobile menu panel when toggled open */
-.site-nav .trigger {
-  background: transparent; /* or try a soft glass effect below */
-}
-
-.site-nav .page-link {
-    color: #fff;
-  }
