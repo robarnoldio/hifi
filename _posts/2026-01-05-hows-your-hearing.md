@@ -15,11 +15,11 @@ excerpt: Investigating how much damage my ears have taken
 
 ## Overview
 
-Before wasting a bunch of electrons writing about how good my room and/or system sounds, I thought it may be useful to examone my own sense of hearing. 
+Before wasting a bunch of electrons writing about how good my room and/or system sounds, I thought it may be useful to examine my own sense of hearing. 
 
 Today's post is brought to you by the word [presbycusis](https://www.nidcd.nih.gov/health/age-related-hearing-loss), which is age-related hearing loss. 
 
-So just maybe I'm one of the many afflicted people, and you should discount anything I have to say about music or whatever because I am going deaf anyway. Or at least, that's a thing I considered as I was lanning to document all this mess. But this is a good news post--I recently got a new set of Apple AirPods Pro, which allows an easy, at-home way to get a hearing test. While this is not a substitute for seeing an audiologist, it's a nice sanity check that I can share with you.
+So just maybe I'm one of the many afflicted people, and you should discount anything I have to say about music or whatever because I am going deaf anyway. Or at least, that's a thing I considered as I was planning to document all this mess. But this is a good news post--I recently got a new set of Apple AirPods Pro, which allows an easy, at-home way to get a hearing test. While this is not a substitute for seeing an audiologist, it's a nice sanity check that I can share with you.
 
 ![test results for your author](/i/test.png)
 
