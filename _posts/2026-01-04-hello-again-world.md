@@ -11,8 +11,6 @@ author: Rob Arnold
 excerpt: Intro post for this new blog
 ---
 
-# hello again world
-
 Okay, this is the first post on the new blog. In this space, I aim to discuss my learning journey with tuning my hi-fi setup. Most folks struggle to understand the factors that inhibit or enhance the quality of their listening, and it's not surprising, because acoustics can be challenging if you haven't had the training to work with measurements in both the time and frequency domain. Since I have an engineering degree (and specialized in signal processing), a lot of the background info needed was included in my education.
 
 ## Overview

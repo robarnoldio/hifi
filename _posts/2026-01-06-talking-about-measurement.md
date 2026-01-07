@@ -11,8 +11,6 @@ author: Rob Arnold
 excerpt: In which we discuss precision, accuracy, and dimensions
 ---
 
-# Talking about measurement
-
 ## Terms and conditions
 
 One of the things that makes this a technical blog instead of some random crank expressing opinions is that I will try my best to precisely use technical terms and units to describe the things I'm talking about. So, a random crank *with an engineering degree* expressing opinions *with precision*. With the caveat that I don't work in the engineering field.
