@@ -27,10 +27,19 @@
   color: #e1e1e1;
 }
 
-/* Hamburger icon color (mobile toggle) */
+/* General: keep the label/icon text color white */
 .menu-icon {
   color: #fff;
 }
+
+/* Mobile: force the hamburger SVG to be white, beating Minima's rule */
+@media screen and (max-width: 600px) {
+  /* Increase specificity over `.site-nav .menu-icon > svg` */
+  .site-header .wrapper .site-nav .menu-icon > svg {
+    fill: #ffffff;
+  }
+}
+
 
 /* NAV: transparent background so the header image shows through */
 .site-nav {
