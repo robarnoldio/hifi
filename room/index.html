@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>About my listening room | Listening in high fidelity</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="About my listening room" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Technical notes from Rob Arnold on the pursuit of better listening experiences." />
+<meta property="og:description" content="Technical notes from Rob Arnold on the pursuit of better listening experiences." />
+<link rel="canonical" href="https://hifi.robarnold.io/room/" />
+<meta property="og:url" content="https://hifi.robarnold.io/room/" />
+<meta property="og:site_name" content="Listening in high fidelity" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="About my listening room" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Technical notes from Rob Arnold on the pursuit of better listening experiences.","headline":"About my listening room","url":"https://hifi.robarnold.io/room/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Minima/Sass output: ensures your assets/main.scss compiles to /assets/main.css -->
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://hifi.robarnold.io/feed.xml" title="Listening in high fidelity" /></head><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Listening in high fidelity</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/system/">About my stereo</a><a class="page-link" href="/room/">About my listening room</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About my listening room</h1>
+  </header>
+
+  <div class="post-content">
+    <ul>
+  <li>My room is 275” W × 172” L × 104” H.</li>
+  <li>Floor is shag carpet over poured concrete (this is a basement room).</li>
+  <li>Listening position is 26” from rear wall on a leather sectional sofa.</li>
+  <li>Distance from R speaker to wall is 80” and from L to wall is 100”.</li>
+  <li>Listening Position is 125” from right wall, 148” from left.</li>
+  <li>measurement of the noise floor in the room was below 40 dB (measured with a phone app–my meter range does not extend that low)</li>
+</ul>
+
+<h1 id="diagram">Diagram</h1>
+
+<p>A diagram from REW that models the listening position in the room:</p>
+
+<p><img src="/i/room-diagram.png" alt="room diagram" /></p>
+
+<h1 id="mode-analysis">Mode analysis</h1>
+
+<p>Here are the top 30 modes derived from the room’s geometry.</p>
+
+<p>Why is this at all important? The parallel walls will tend to reinforce certain frequencies–it’s a resonant system with frequency is related to the distance between the walls. By dividing the speed of sound by twice the distance, you will determine the wavelength that is reinforced. Integer multiples (harmonics) of that fundamental wavelength are also reinforced, check out this pic from my textbook to help you visualize this:</p>
+
+<p><img src="/i/modes.png" alt="room modes diagram" /></p>
+
+<p>So I got a little help from Copilot to calculate the meaningful modes to pay attention to in my room:</p>
+
+<h2 id="conventions">Conventions</h2>
+<ul>
+  <li>Speed of sound assumed: <strong>1130 ft/s</strong> (typical room temperature approximation)</li>
+  <li>Mode index format: <strong>(nx, ny, nz) = (Length, Width, Height)</strong></li>
+  <li>Mode types:
+    <ul>
+      <li><strong>Axial:</strong> two indices are zero</li>
+      <li><strong>Tangential:</strong> one index is zero</li>
+      <li><strong>Oblique:</strong> no indices are zero</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="axial-modes-dominant--up-to-200-hz">Axial Modes (dominant) — up to 200 Hz</h2>
+<h3 id="width-w">Width (W)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">n</th>
+      <th style="text-align: right">Frequency (Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">24.65</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">49.31</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">73.96</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">98.62</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">123.27</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">147.93</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">7</td>
+      <td style="text-align: right">172.58</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">197.24</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="length-l">Length (L)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">n</th>
+      <th style="text-align: right">Frequency (Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">39.42</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">78.84</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">118.26</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">157.67</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">197.09</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="height-h">Height (H)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">n</th>
+      <th style="text-align: right">Frequency (Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">65.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">130.38</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">195.58</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="lowest-30-modal-frequencies-axial--tangential--oblique---126-hz">Lowest 30 Modal Frequencies (Axial + Tangential + Oblique) — ≤ ~126 Hz</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">#</th>
+      <th style="text-align: left">Type</th>
+      <th style="text-align: left">Mode (nx,ny,nz)</th>
+      <th style="text-align: right">Frequency (Hz)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,1,0)</td>
+      <td style="text-align: right">24.65</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(1,0,0)</td>
+      <td style="text-align: right">39.42</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(1,1,0)</td>
+      <td style="text-align: right">46.49</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,2,0)</td>
+      <td style="text-align: right">49.31</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(1,2,0)</td>
+      <td style="text-align: right">63.13</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,0,1)</td>
+      <td style="text-align: right">65.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(0,1,1)</td>
+      <td style="text-align: right">69.7</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">8</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,3,0)</td>
+      <td style="text-align: right">73.96</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">9</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(1,0,1)</td>
+      <td style="text-align: right">76.18</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">10</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(2,0,0)</td>
+      <td style="text-align: right">78.84</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">11</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(1,1,1)</td>
+      <td style="text-align: right">80.07</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">12</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(0,2,1)</td>
+      <td style="text-align: right">81.74</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">13</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(2,1,0)</td>
+      <td style="text-align: right">82.6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">14</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(1,3,0)</td>
+      <td style="text-align: right">83.81</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">15</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(1,2,1)</td>
+      <td style="text-align: right">90.75</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">16</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(2,2,0)</td>
+      <td style="text-align: right">92.99</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">17</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(0,3,1)</td>
+      <td style="text-align: right">98.59</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">18</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,4,0)</td>
+      <td style="text-align: right">98.62</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">19</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(2,0,1)</td>
+      <td style="text-align: right">102.3</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">20</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(2,1,1)</td>
+      <td style="text-align: right">105.23</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">21</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(1,3,1)</td>
+      <td style="text-align: right">106.18</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">22</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(1,4,0)</td>
+      <td style="text-align: right">106.2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">23</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(2,3,0)</td>
+      <td style="text-align: right">108.1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">24</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(2,2,1)</td>
+      <td style="text-align: right">113.56</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">25</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(0,4,1)</td>
+      <td style="text-align: right">118.22</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">26</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(3,0,0)</td>
+      <td style="text-align: right">118.26</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">27</td>
+      <td style="text-align: left">Tangential</td>
+      <td style="text-align: left">(3,1,0)</td>
+      <td style="text-align: right">120.8</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">28</td>
+      <td style="text-align: left">Axial</td>
+      <td style="text-align: left">(0,5,0)</td>
+      <td style="text-align: right">123.27</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">29</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(1,4,1)</td>
+      <td style="text-align: right">124.62</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">30</td>
+      <td style="text-align: left">Oblique</td>
+      <td style="text-align: left">(2,3,1)</td>
+      <td style="text-align: right">126.24</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p><em>Generated from room geometry only; does not include soffit effects, damping, speaker placement, or boundary compliance.</em></p>
+
+<p>Each of the above is a potential (theoretical) problem with the evenness of my room’s frequency response. If it turns out to be an actual (measured) problem, the steps I can take to attempt to correct it mainly involve moving the positions of the speakers and the listener, since the room geometry is not changing.</p>
+
+<p>In recording studios, the designers avoid parallel walls to keep these effects from contributing negatively to the sound. Peaks and nulls of 30dB or more are not unusual, and most rooms suffer from at least a couple of these.</p>
+
+<p>I am using a two-channel stereo setup, without any subwoofer. Sub enjoyers have a bit more to think about than I do when it comes to these modes and the way their placement of a subwoofer interacts in good/bad ways.</p>
+
+<blockquote>
+  <p>Updated on 2026-01-05</p>
+</blockquote>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Listening in high fidelity</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Listening in high fidelity</li><li><a class="u-email" href="mailto:hifi@robarnold.io">hifi@robarnold.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/robarnoldio"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">robarnoldio</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Technical notes from Rob Arnold on the pursuit of better listening experiences.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
