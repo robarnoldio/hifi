@@ -18,7 +18,7 @@ I did a first set of videos where I had my meter in one hand and my phone in the
 
 ## scrap lumber and pocket hole screws
 
-90% of this is two boards I screwed together at a right angle. Then the other super advanced technology is a bunch of holes I drilled so I can use a 1/4-20 threaded knob to mount my meter and my phone grabber/holder. a bunch of camera mount stuff is 1/4-20 so I have some experience hacking mounts to meet my needs. Wallace and Gromit would be proud of some of my contraptions.
+90% of this is two boards I screwed together at a right angle. Then the other super advanced technology is a bunch of holes I drilled so I can use a 1/4-20 threaded knob to mount my meter and my phone grabber/holder. A bunch of camera mount stuff is 1/4-20 so I have some experience hacking mounts to meet my needs. Wallace and Gromit would be proud of some of my contraptions.
 
 ## shut up and show it to me
 
