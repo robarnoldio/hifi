@@ -1,0 +1,11 @@
+# trust.txt — organizational declarations
+# See: https://hifi.robarnold.io/trust.txt
+
+# Organization
+organization: Your Company, Inc.
+website: https://hifi.robarnold.io/
+contact: rob@robarnold.io
+
+# AI data training
+datatrainingallowed: no
+datatrainingpolicy: https://hifi.robarnold.io/policies/ai-training-opt-out

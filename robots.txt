@@ -1,0 +1,74 @@
+
+# robots.txt — Total AI exclusion
+
+# --- Block specific AI/LLM crawlers outright ---
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Youbot
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+User-agent: AI2Bot-Dolma
+Disallow: /
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Seekr
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+# (Add more AI/LLM UAs as needed from maintained lists.)
+
+# --- Catch-all: deny training by any other/unknown AI crawlers ---
+User-agent: *
+DisallowAITraining: /      # Non-standard: explicit “no training”
+Content-Usage: ai=n        # Non-standard: declare AI usage not permitted
+Allow: /                    # Optional: keep normal search bots allowed
