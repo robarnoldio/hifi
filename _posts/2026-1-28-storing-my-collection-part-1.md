@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Storing my record collection"
+title: "Storing my record collection (part 1)"
 date: 2026-01-28 08:06:17 -0600
 categories: [audio, hifi, DIY]
 tags: [furniture, LPs]
@@ -39,7 +39,7 @@ Before getting out the pocket hole jig and drilling, I checked my pieces for fit
 
 ![assembled carcass](/i/IMG_7397.jpeg)
 
-I don't have pics of the pocket holes or jig but if you've used one, you know it make simple joinery like this go pretty quick. I got the box put together in under an hour, almost as if it were a kit rather than custom designed.
+I don't have pics of the pocket holes or jig but if you've used one, you know it makes simple joinery like this go pretty quick. I got the box put together in under an hour, almost as if it were a kit rather than custom designed.
 
 ![shot of the top being finished"](/i/IMG_7452.jpeg)
 
@@ -47,15 +47,15 @@ For me the most controversial choice was using water based polyurethane finish--
 
 ![finished with legs attached"](/i/IMG_7464.jpeg)
 
-And once I felt like more coats of poly was not going to inproe it, I added the legs. Astute readers will notice I places the accessory bin spot in the upper shelf unlike in my sketch. It seemed like a better design choice, and it also let me use the nicer shelf as the top. Haha, I immediately filled it with records anyway instead of using it as designed.
+And once I felt like more coats of poly was not going to improve it, I added the legs. Astute readers will notice I places the accessory bin spot in the upper shelf unlike in my sketch. It seemed like a better design choice, and it also let me use the nicer shelf as the top. Haha, I immediately filled that smaller bay with records anyway instead of using it as designed.
 
 ## Dimensions and stuff
 
-I estimate this holds about 500 records, plus or minus 10%. I did not really put enough thought into the weight and how the span would sag. I'd say there's a 1/4" sag in the horizontal shelves (measured between the center and ends) and fortunately my leveling feet on my turntable allow me to compensate. If I rebuild or replace this, i'll stiffen it by adding the stop boards in the back of the openings. I would also like it if I had better lighting when selecting a record, maybe that goes into version 2.0.
+I estimate this holds about 500 records, plus or minus 10%. I did not really put enough thought into the weight and how the span would sag. I'd say there's a 1/4" sag in the horizontal shelves (measured between the center and ends) and fortunately my leveling feet on my turntable allow me to compensate. If I rebuild or replace this, i'll stiffen it by adding some stop boards in the back of the openings. I would also like it if I had better lighting when selecting a record, maybe that goes into version 2.0.
 
-The 11-1/2" depth is not really enough for my vintage components to securely sut on, so I am just resting an unfinished board that is 16" deep on the top of the unit. I may choose to wall-mount that board as a shelf, thereby further decoupling the equipment from being disturbed when I pull or replace a record from the rack.
+The 11-1/2" depth is not really enough for my vintage components to securely sit on, so I am just resting an unfinished board that is 16" deep on the top of the unit. I may choose to wall-mount that board as a shelf, thereby further decoupling the equipment from being disturbed when I pull or replace a record from the rack.
 
-If I find a nice chunk of butcher block countertop that is long enough, I'll add that to the top of this but fhe cheap board hack is working for now.
+If I find a nice chunk of butcher block countertop that is long enough, I'll add that to the top of this but the cheap board hack is working for now.
 
 ![installed in the space with zero records"](/i/IMG_7654.jpeg)
 
