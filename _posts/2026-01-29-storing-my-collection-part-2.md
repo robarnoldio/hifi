@@ -23,13 +23,13 @@ In record stores you often see flip bins, with dividers that help you navigate t
 
 My plan has always been to create my own dividers. I picked out some clear plastic sheet protectors from Daiso that I can print an insert with the artist's name. I also am including a checklist of the artist's discography so I can have a sorted list by release date and also check off as I complete my collection.
 
-![Herbie Hancock divider and checklist form](i/IMG_0736.jpeg)
+![Herbie Hancock divider and checklist form](/i/IMG_0736.jpeg)
 
 And ideally I'd like to use the folder feature in discogs to record where to start the search. But I've been tweaking my setup and making changes often enough that I don't have that working exactly right just yet. I do have the folder names set up for the day I decide to spend an hour or so on filing.
 
 Here's how the shelf looks from the right side showing the dividers used to index the albums. I'm working on some checklist enhancements, more on that development in a future post.
 
-![Divide and index](i/IMG_0734.jpeg)
+![Divide and index](/i/IMG_0734.jpeg)
 
 I don't want to overrotate to being a librarian/archivist, I'd rather remain a music enjoyer who knows here his albums can be found. So a lot of this is finding that balance point between meticulous and obsessive. Solving large collection problems is part of the enjoyment in having a larger collection.
 
