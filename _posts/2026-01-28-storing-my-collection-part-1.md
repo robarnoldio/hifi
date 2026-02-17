@@ -23,7 +23,7 @@ I decided it needed to be a lot more browse friendly. So I took the opportunity 
 
 ![early drawing of the design of my record furniture](/i/IMG_0710.jpeg)
 
-My initial thoughts revolved around a 4-foot long cabinet that would be roughtly 2 feet tall, in order to hold two shelves of LPs (which are about 12-1/4 inches in outer jackets). Keeping it simple, I planned a rectngular carcass with an open back (I thought about partial stops tht keep the records from sliding too far back in the opening--it's a good idea that I chose to skip). Then my gear can sit on top of the shelf. Iron hairpin legs keep the carcass off the floor.
+My initial thoughts revolved around a 4-foot long cabinet that would be roughly 2 feet tall, in order to hold two shelves of LPs (which are about 12-1/4 inches in outer jackets). Keeping it simple, I planned a rectangular carcass with an open back (I thought about partial stops tht keep the records from sliding too far back in the opening--it's a good idea that I chose to skip). Then my gear can sit on top of the shelf. Iron hairpin legs keep the carcass off the floor.
 
 The idea of the vertical dividers initially was to give me a space to slide a 12 inch storage cube (kind of a common size, Ikea and others sell these in several styles) to hold my "Accessories" that I didn't want to put on display but need to be close at hand.
 
@@ -58,6 +58,5 @@ The 11-1/2" depth is not really enough for my vintage components to securely sit
 If I find a nice chunk of butcher block countertop that is long enough, I'll add that to the top of this but the cheap board hack is working for now.
 
 ![installed in the space with zero records"](/i/IMG_7654.jpeg)
-
 
 > Updated on 2026-01-28

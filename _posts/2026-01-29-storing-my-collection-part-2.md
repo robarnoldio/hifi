@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Storing my record collection (part 2)"
-date: 2026-01-28 16:08:51 -0600
+date: 2026-01-29 16:08:51 -0600
 categories: [audio, hifi, DIY]
 tags: [furniture, LPs]
 author: Rob Arnold
