@@ -40,7 +40,7 @@ I gained two main benefits when I upgraded to this deck--I can set the tonearm h
 
 I have modified the feet, replacing them with a cheap set of spring loaded aluminum feet from Temu (from that household brand, HHDZI). I drilled holes in these so I could convert them to leveling feet like what I removed. I have the original slipmat, but am using a homemade leather mat for right now (I love the static reduction).
 
-# Yamaha CR-1020 REceiver (1977)
+# Yamaha CR-1020 Receiver (1977)
 
 added July 2026
 
@@ -77,4 +77,4 @@ I would love to find a pair of RF-7 (flagships) to replace these, but for now I'
 You can find the very useful REW software at: 
 [REW](https://roomeqwizard.com)
 
-> Updated on 2026-01-04
+> Updated on 2026-08-12
