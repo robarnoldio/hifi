@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Streaming setup with moOde server | Listening in high fidelity</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Streaming setup with moOde server" />
+<meta name="author" content="Rob Arnold" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Details of how modern hi-fi works with legacy stuff" />
+<meta property="og:description" content="Details of how modern hi-fi works with legacy stuff" />
+<link rel="canonical" href="https://hifi.robarnold.io/audio/hifi/2026/04/16/streaming-setup-with-moode.html" />
+<meta property="og:url" content="https://hifi.robarnold.io/audio/hifi/2026/04/16/streaming-setup-with-moode.html" />
+<meta property="og:site_name" content="Listening in high fidelity" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-16T19:44:29-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Streaming setup with moOde server" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rob Arnold"},"dateModified":"2026-04-16T19:44:29-05:00","datePublished":"2026-04-16T19:44:29-05:00","description":"Details of how modern hi-fi works with legacy stuff","headline":"Streaming setup with moOde server","mainEntityOfPage":{"@type":"WebPage","@id":"https://hifi.robarnold.io/audio/hifi/2026/04/16/streaming-setup-with-moode.html"},"url":"https://hifi.robarnold.io/audio/hifi/2026/04/16/streaming-setup-with-moode.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Minima/Sass output: ensures your assets/main.scss compiles to /assets/main.css -->
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://hifi.robarnold.io/feed.xml" title="Listening in high fidelity" /></head><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Listening in high fidelity</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/system/">About my stereo</a><a class="page-link" href="/room/">About my listening room</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Streaming setup with moOde server</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2026-04-16T19:44:29-05:00" itemprop="datePublished">Apr 16, 2026
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Rob Arnold</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="streaming-setup-with-moode-server">Streaming setup with moOde server</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>Wouldn’t it be cool to audition the same music presented in a modern, high-resolution bit stream and as a Vinyl LP record? That’s the idea behind this project. With the aux input on my receiver, I can conveniently AB test two representations of the music, keeping the amplification and speakers parts of the signal chain constant. But getting the digital side of that correct was not as obvious as it looked.</p>
+
+<h2 id="first-prototype">First prototype</h2>
+
+<p>My first tests were playing from Plexamp on an iPad through a pretty cheap DAC (like 10 bucks) sold as a headphone adapter for the lightning jack. Plexamp made it easy to browse my large-ish library of files on my Network Attached Storage (NAS–a Synology Diskstation). I proved the concept this way, but two things really bugged me:</p>
+
+<ul>
+  <li>wiring the iPad to the receiver made it terribly inconvenient to use from the couch and browse the collection</li>
+  <li>the audio quality of the cheapest gizmo in the chain (the headphone adapter) seemed likely to limit the fidelity of the digital side</li>
+</ul>
+
+<h2 id="second-prototype">Second prototype</h2>
+
+<p>Then I expanded my Plexamp knowledge a bit more and determined I could remote control one Plexamp app instance from another on the same network which solved the first problem. But I wanted to hold my iPad and use it to browse. So I put a Windows laptop in the chain as a “player” Plexamp instance being controlled by the “remote” iPad instance. I needed to add the device in order to disconnect from the receiver.</p>
+
+<p>I also for this prototype upgraded to a better DAC: A <a href="https://fosiaudio.com/products/fosi-audio-q4-mini-stereo-gaming-dac-headphone-amplifier">Fosi Audio DAC-Q4</a>. I was able to grab a working one at surplus for pretty cheap, a fraction of what it costs new. This is what I would consider a prosumer device in that it supports some decent high resolution audio standards, but not the highest, and is built on a low-cost chip unlike expensive alternatives. But the specs are good, it has a volume knob so I can level match my other sources, and maybe <strong>good enough</strong> for listening to 60’s jazz.</p>
+
+<p><img src="/i/IMG_1068.jpeg" alt="cheap and cheerful DAC" /></p>
+
+<p>This solution worked pretty well, but I got frustrated by a few different things:</p>
+
+<ul>
+  <li>The laptop uses a bunch of power and space compared to a tablet</li>
+  <li>I wanted to have it available for other work at times (the big issue)</li>
+  <li>I had to nail the power management up on that box so Windows wouldn’t power it down when it idles</li>
+</ul>
+
+<h2 id="shrinking-the-player">Shrinking the player</h2>
+
+<p>My next attempts to overcome the above complaints involved recycling/upcycling some old Apple TV 2 units I had sitting around. On the plus side, they offer TOSLink digital output to the DAC. But installing Plexamp on there would at minimum involve jailbreaking the device, which I was up for but haven’t done before. I did briefly set one up as an AirPlay target and use the digital output to the DAC. That <strong>mostly</strong> worked, but the idea that AirPlay may compress my audio was bothering me.</p>
+
+<p>I also have a few older Raspberry Pi computers sitting around from earlier tinkering projects (whole house ad-blocker, network security, arcade emulation). So I went in search of a software that could do Plexamp’s job of playing files stored on my NAS, but would run on the RPi. Plexamp will only support their RPi client for subscription customers, and I did not and do not want to become one of those.</p>
+
+<p>And that led me to <a href="https://moodeaudio.org">moOde audio player</a>.</p>
+
+<p>This approach fixed pretty much my whole list of gripes, is open-source unlike Plexamp, and runs well on even an older RPi model 3B like I had a few on hand. Including one I picked up for 0.25 USD at a church sale. Plus I had pretty good familiarity with the platform, unlike working on a jailbroken Apple gizmo.</p>
+
+<p>Keeping a RPi on 24/7 is not a big deal, it uses about 2 Watts (measured with my kill-a-watt meter). It’s got onboard WiFi so putting it on the network was a breeze, and I could locate it close to the receiver. It doesn’t have a lot of other useful jobs unlike the Windows 11 laptop, so dedicating it to the music player job was an easy choice. And the combo of the moOde player stack with the USB audio support for the Fosi DAC gave me a well-controlled, bit-perfect representation of the music.</p>
+
+<p><img src="/i/IMG_1067.jpeg" alt="my new 10-year-old music player" /></p>
+
+<p>A quick detour into bit-perfect: anything like bluetooth or AirPlay has a decent chance of altering the bit stream on its way to your ears somehow. Because those systems have goals that don’t necessarily include high fidelity. I wanted to keep a wired connection for the digital audio, but wireless networking to grab the files off the NAS is fine, that’s not an audible portion of the chain (so long as the file can reliably reach the player).</p>
+
+<h2 id="the-entire-signal-chain-visualized">The entire signal chain, visualized</h2>
+
+<p>Now we can look at the system diagram to see how the various parts of the system work together to achieve my hi-fi goals.</p>
+
+<p><img src="/i/IMG_1106.jpeg" alt="engineers love diagrams--this is my streaming setup" /></p>
+
+<p>This diagram is organized with the digital bits on the left, analog on the right. The DAC’s job is to connect those two worlds in the way that sounds best.</p>
+
+<p>The moOde player presents a web server to the network, which allows me to control it from literally any device with a browser on my home network–my phone, iPad, laptop, anything will work. I’m showing the iPad here because that was my preferred controller. Because it’s wireless, I don’t need to be close to the receiver any more.</p>
+
+<p>The USB connection to the DAC from the RPi is configured in software–I have locked its bit depth and sample rate to 24bit/96kHz, which does require me to upsample any audio files that are at lower quality. Incidentally I also must resample any files that are <strong>higher</strong> resolution than this (really just the sample rate). The reason here is that the USB input, unlike the optical input of the DAC is limited to 96kHz. this is a limitation of a cheap DAC, and I accepted that in order to have a cheap DAC. I’d need to spend a couple hundred bucks to overcome that, so I decided to live with it until I felt like it became worth spending the money to overcome it.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>This post is long enough, so I’m not going to cover how to configure or use moOde. Stay tuned for more about the world of streaming audio though…</p>
+
+<blockquote>
+  <p>Updated on 2026-04-16</p>
+</blockquote>
+
+  </div><a class="u-url" href="/audio/hifi/2026/04/16/streaming-setup-with-moode.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Listening in high fidelity</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Listening in high fidelity</li><li><a class="u-email" href="mailto:hifi@robarnold.io">hifi@robarnold.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/robarnoldio"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">robarnoldio</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Technical notes from Rob Arnold on the pursuit of better listening experiences.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

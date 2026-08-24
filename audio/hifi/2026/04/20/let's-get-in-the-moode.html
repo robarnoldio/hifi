@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Let’s get in the moOde | Listening in high fidelity</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Let’s get in the moOde" />
+<meta name="author" content="Rob Arnold" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A quick tour of the moOde front end" />
+<meta property="og:description" content="A quick tour of the moOde front end" />
+<link rel="canonical" href="https://hifi.robarnold.io/audio/hifi/2026/04/20/let's-get-in-the-moode.html" />
+<meta property="og:url" content="https://hifi.robarnold.io/audio/hifi/2026/04/20/let's-get-in-the-moode.html" />
+<meta property="og:site_name" content="Listening in high fidelity" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-04-20T19:44:29-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Let’s get in the moOde" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rob Arnold"},"dateModified":"2026-04-20T19:44:29-05:00","datePublished":"2026-04-20T19:44:29-05:00","description":"A quick tour of the moOde front end","headline":"Let’s get in the moOde","mainEntityOfPage":{"@type":"WebPage","@id":"https://hifi.robarnold.io/audio/hifi/2026/04/20/let's-get-in-the-moode.html"},"url":"https://hifi.robarnold.io/audio/hifi/2026/04/20/let's-get-in-the-moode.html"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Minima/Sass output: ensures your assets/main.scss compiles to /assets/main.css -->
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://hifi.robarnold.io/feed.xml" title="Listening in high fidelity" /></head><body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Listening in high fidelity</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/system/">About my stereo</a><a class="page-link" href="/room/">About my listening room</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Let&#39;s get in the moOde</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2026-04-20T19:44:29-05:00" itemprop="datePublished">Apr 20, 2026
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">Rob Arnold</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="streaming-with-moode-server">Streaming with moOde server</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>The main thing you’ll see with moOde is the user interface, so I want to show that to you.</p>
+
+<p>Similar to Plexamp and others, you can browse your collection by viewing the covers.</p>
+
+<p><img src="/i/IMG_2122.jpeg" alt="Album collection by covers--sorted by artist then date" /></p>
+
+<p>The default sort order is by artist and date, which I dig as someone who like to have the full discography (or significant chunks of it) for artists I enjoy. At the center top you see “Browse by Artist/Year” and you see the covers presented sorted by artist first+last name, then older to newer. So Joni mitchell comes after John Coltrane. It gets that metadata (including cover art) from tags in the files. moOde isn’t getting that metadata (other players or organizers can do that) so its up to you to curate your files and ensure that relevant metadata is embedded in them–there are a bunch of tools like beets or Picard that help with that job, so I like keeping moOde focused on the browse/playback experiences.</p>
+
+<p>Even when browsing the collection in this view, there’s a playback control set visible at the bottom along with data on the current track. At the top left you can change the browse view to look at tags or folders in your filesystem if finding stuff by cover browse isn’t working for you. There’s an alphabetical navigator at right that lets you skip forward while browsing covers by Artist.</p>
+
+<p>Like a lot of players, moOde works off of a queue. You can add whole albums or sons to a queue, and it also supports streaming radio stations out of the box, although I’m not showing that.</p>
+
+<p><img src="/i/IMG_2121.jpeg" alt="One album in the playback queue" /></p>
+
+<p>In the playback view you get to see a responsive layout with your queue at the left, playback controls center, and track metadata at the right. a thin strip at the top of the window has some navigation items–at top left you can open a search dialog and at top right you can get to several non-playback menus that let you access moOde setup parameters–more on that in a future post.</p>
+
+<p>In my screenshot the software volume control is enabled (this is a configuration setting). The big circular controls allow you to easily set the playback time and volume, with basic transport controls in between and at the bottom the “Expanded” transport controls that let you:</p>
+
+<ul>
+  <li>get a queue management popup menu</li>
+  <li>toggle shuffle</li>
+  <li>toggle a full screen cover view</li>
+  <li>a “play random album” button that requires you to do some configuration in settings</li>
+  <li>favorite a track</li>
+</ul>
+
+<p>The right hand stack is worth a short tour: under the album cover art you see a few commonly used track tags, then below that the title, artist, and a badge if it’s a high res file. The track title is a clickable G**gle link to a search of the album title (weird, but you’ll see why in a second). That helps because you don’t get personnel info in this view or any other view. You are basically two clicks away from finding who the musicians are on Wikipedia this way, which is okay.</p>
+
+<p><img src="/i/IMG_2123.jpeg" alt="Album collection by tag view--Looking at just Joni here" /></p>
+
+<p>Tag view is cool because you can find not just the artist, but also look for sidemen if you have the relevant tags in your collection. My Joni Mitchell screenshot example doesn’t show that off well, but you could find Herbie Hancock playing on a Donald Byrd album this way for example. Tags support genre, and really anything else you felt like tagging.</p>
+
+<p>It’s kinda cool to see that I have 9 and a half hours of Joni to listen to if I felt so inclined.</p>
+
+<p><img src="/i/IMG_2124.jpeg" alt="A saved search for an artist, in this case Joni Mitchell" /></p>
+
+<p>You can also save a search if you find that convenient. That lets you quickly get to a subset of your covers and use the same browse experience against a shorter set.</p>
+
+<p>Notice here that each cover has a circular badge with three dots–clicking that opens that queue management menu and from there you can add the album to the queue while things continue to play, or you can replace the queue with this album, and there are several other options I mainly don’t use. You can also add albums and tracks to playlists (which I mostly don’t use) this way, even if you are playing different tracks or albums. So you can build your Led Zep ultimate speaker destroyer playlist while you listen to the soothing tones of Joni if that’s what you want.</p>
+
+<h2 id="but-wait-theres-more">But wait, there’s more</h2>
+
+<p>That’s a pretty good walkthrough of the stuff you’ll use once you’re set up. Next post I’ll cover the things you use while you’re setting up moOde.</p>
+
+<p>And why did the author capitalize the third letter? No idea.</p>
+
+<blockquote>
+  <p>Updated on 2026-08-21</p>
+</blockquote>
+
+  </div><a class="u-url" href="/audio/hifi/2026/04/20/let's-get-in-the-moode.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Listening in high fidelity</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Listening in high fidelity</li><li><a class="u-email" href="mailto:hifi@robarnold.io">hifi@robarnold.io</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/robarnoldio"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">robarnoldio</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Technical notes from Rob Arnold on the pursuit of better listening experiences.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
