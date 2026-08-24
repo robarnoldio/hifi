@@ -36,14 +36,14 @@ In my screenshot the software volume control is enabled (this is a configuration
 - get a queue management popup menu
 - toggle shuffle
 - toggle a full screen cover view
-- some function I don't know, but looking at the help file appears to be a "play random album" that requires you to do some configuration in settings
+- a "play random album" button that requires you to do some configuration in settings
 - favorite a track
 
-The right hand stack is worth a short tour: under the album cover art you see a few commonly used track tags, then below that the title, artist, and a badge if it's a high res file. The track title is a clickable G**gle link to a search of the album title (weird, but you'll se why in a second). That helps because you don't get personnel info in this view or any other view. You are basically two clicks away from finding who the musicians are on Wikipedia this way, which is okay.
+The right hand stack is worth a short tour: under the album cover art you see a few commonly used track tags, then below that the title, artist, and a badge if it's a high res file. The track title is a clickable G**gle link to a search of the album title (weird, but you'll see why in a second). That helps because you don't get personnel info in this view or any other view. You are basically two clicks away from finding who the musicians are on Wikipedia this way, which is okay.
 
 ![Album collection by tag view--Looking at just Joni here](/i/IMG_2123.jpeg)
 
-Tag view is cool because you can find not just the artist, but also look for sidemen if you have the relevant tags in you collection. My Joni Mitchell screenshot example doesn't show that off well, but you could find Herbie Hancock playing on a Donald Byrd album this way for example. Tags support genre, and really anything else you felt like tagging.
+Tag view is cool because you can find not just the artist, but also look for sidemen if you have the relevant tags in your collection. My Joni Mitchell screenshot example doesn't show that off well, but you could find Herbie Hancock playing on a Donald Byrd album this way for example. Tags support genre, and really anything else you felt like tagging.
 
 It's kinda cool to see that I have 9 and a half hours of Joni to listen to if I felt so inclined.
 
